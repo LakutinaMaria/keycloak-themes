@@ -18,7 +18,6 @@
     "@mui/icons-material": "^6.4.3",
     "@mui/lab": "^6.0.0-beta.26",
     "@mui/material": "^6.4.3",
-    "keycloakify": "^11.8.13",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -33,6 +32,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
+    "keycloakify": "^11.8.22",
     "sass-embedded": "^1.83.4",
     "storybook": "^8.5.3",
     "typescript": "~5.7.2",

@@ -34,9 +34,32 @@ export default function KcPage(props: { kcContext: KcContext }) {
         },
       },
     },
+    components: {
+      MuiPaper: {
+        styleOverrides: {
+          root: {
+            backgroundColor: "transparent", // Override background for Paper component
+          },
+        },
+      },
+      MuiCard: {
+        styleOverrides: {
+          root: {
+            backgroundColor: "transparent", // Override background for Card component
+          },
+        },
+      },
+      MuiCardContent: {
+        styleOverrides: {
+          root: {
+            backgroundColor: "transparent", // Override background for CardContent
+          },
+        },
+      },
+    },
   });
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
       <Suspense>
         {(() => {
           switch (kcContext.pageId) {

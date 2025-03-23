@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.wrapper {
+    display: "flex";
+    direction: "column";
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: beige;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.no-background {
+    background-color: transparent;
+}
